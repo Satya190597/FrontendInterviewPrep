@@ -72,4 +72,11 @@ const teacher = new Person(skill);
 teacher.skill(); // I Can Teach !!
 teacher.greet(); // Hello !!
 ```
+![Explain Setting Prototype Using Constructor](/prototype-002.png)
+### Difference between \_\_proto\_\_ and prototype.
+- Prototype is a property of a Function object. It is the prototype of objects constructed by that function.
+- \_\_proto\_\_ is an internal property of an object, pointing to its prototype. Current standards provide an equivalent Object.getPrototypeOf(obj) method, though the de facto standard \_\_proto\_\_ is quicker.
+> [Credit Resource : user3840170](https://stackoverflow.com/a/9959771)
+
+
   
